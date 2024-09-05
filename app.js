@@ -14,7 +14,7 @@ app.use((req, res, next) => {
   
   app.use((req, res) => {
     res.json([
-        { "Ville": "Bafoussam","Adresse": "Ancien Plateau, BP 123","reference": "1297235263", "index": 451, "dernier date releve index": "Jeudi 25 Novembre 2021"},
+        { "Ville": "Bafoussam","Adresse": "Ancien Plateau, BP 123","reference": "1297235263", "index": 451, "dernier_date_releve_index": "Jeudi 25 Novembre 2021"},
         {   
             "Ville": "Dschang",
             "Adresse": "Château, Rue de la Paix",
